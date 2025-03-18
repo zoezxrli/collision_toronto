@@ -2,6 +2,10 @@
 # Toronto Collision Data Web Map
 ### Project Overview
 This project is an interactive web map that visualizes traffic collisions that happened to cyclists and pedestrain in Toronto. It aggregates collision incidents into hexagonal bins using Turf.js and Mapbox GL JS, allowing users to analyze the spatial distribution of traffic collisions and their contributing factors, such as over speeding, red light, alcohol, and illustrate the amount of injuries that are pedestrian and cyclist. 
+The purpose of this project is to help users to:
+- Identifying high-risk areas for traffic safety improvements.
+- Analyzing the impact of speeding, red-light running, and alcohol-related crashes.
+- Understanding accident patterns involving vulnerable road users for cyclists and pedestrains. 
 
 ### Key Features
 - Hexagonal Binning – Aggregates collision data into 0.5 km hexagons.
