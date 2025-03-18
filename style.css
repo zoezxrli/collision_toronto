@@ -6,3 +6,43 @@
     right: 0;
     width: 100%;
 }
+
+.legend {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background: white;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.legend div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legend span {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#map-title {
+    position: absolute;  /* Makes it stay on top of the map */
+    top: 20px;  /* Position from the top */
+    left: 15%;  /* Center align */
+    transform: translateX(-50%);  /* Ensures it is perfectly centered */
+    font-size: 28px;  /* Adjust font size */
+    font-weight: bold;  /* Make the text bold */
+    background: rgba(255, 255, 255, 0.6);  /* Semi-transparent background */
+    color:black;  /* White text */
+    padding: 10px 20px;  /* Adds spacing */
+    border-radius: 8px;  /* Rounded edges */
+    z-index: 1000;  /* Ensures it stays on top */
+}
