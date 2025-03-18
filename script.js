@@ -267,6 +267,14 @@ map.on("click", "hex-layer", function (e) {
         .addTo(map);
 });
 
+document.getElementById("toggle-collisions").addEventListener("change", function () {
+    map.setLayoutProperty("collision-points", "visibility", this.checked ? "visible" : "none");
+});
+
+document.getElementById("toggle-hexgrid").addEventListener("change", function () {
+    map.setLayoutProperty("hex-layer", "visibility", this.checked ? "visible" : "none");
+});
+
 // change cursor to pointer when hovering over hexagons
 map.on("mouseenter", "hex-layer", function () {
     map.getCanvas().style.cursor = "pointer";

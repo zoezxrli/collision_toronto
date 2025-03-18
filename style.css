@@ -46,3 +46,14 @@
     border-radius: 8px;  /* Rounded edges */
     z-index: 1000;  /* Ensures it stays on top */
 }
+
+#map-controls {
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
